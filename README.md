@@ -19,7 +19,7 @@ Project done by Priyansh Singh Chawda.
    ```bash
    git clone https://github.com/howebo/String_Calculator.git
    cd string-calculator
-2. **Install dependencies:** Make sure you have Node.js installed, then run:
+2. **Install dependencies:** Make sure you have Node.js installed, then run:  ```bash npm install
 3. **Create a .gitignore file (if it doesn’t exist) and add node_modules/ to it to prevent tracking:**
 4. **Start the server:**
 5. **Open your web browser and navigate to:**
