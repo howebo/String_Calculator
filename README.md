@@ -42,31 +42,31 @@ Project done by Priyansh Singh Chawda.
    Input Examples:  Here are some examples of inputs you can enter in the UI input box:
   
    1. **Empty Input:**   
-   Input: ""
+   Input: 
    Expected Output: Result: 0
    
    2.**Single Number:**
    
-   Input: "5"
+   Input: 5
    Expected Output: Result: 5
    
    3.**Two Numbers:**
    
-   Input: "3,7"
+   Input: 3,7
    Expected Output: Result: 10
    Multiple Numbers with New Lines:
    
-   Input: "1\n2,3"
+   Input: 1\n2,3
    Expected Output: Result: 6
    
    4.**Custom Delimiter:**
    
-   Input: "//;\n4;5;1"
+   Input: //;\n4;5;1
    Expected Output: Result: 10
    
    5.**Negative Numbers:**
    
-   Input: "1,-2,3"
+   Input: 1,-2,3
    Expected Output: Error: negative numbers not allowed: -2
 
 ## Running Tests
@@ -82,14 +82,3 @@ Jest (for testing)
 
 ## License
 This project is open-source and available under the MIT License.
-```bash
- 
-### Instructions for Use
-
-1. **Update the `https://github.com/howebo/String_Calculator.git`** in the Installation section with your actual GitHub repository URL.
-2. Save this content into a file named `README.md` in your project root.
-
-### Summary
-
-This README file provides a comprehensive guide for users to understand how to set up and use your String Calculator project. If you have any further questions or need additional modifications, let me know!
-
