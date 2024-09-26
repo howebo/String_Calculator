@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Calculator</title>
+  </head>
+  <body>
+    <h1>String Calculator</h1>
+    <textarea
+      id="numbers"
+      rows="4"
+      cols="50"
+      placeholder="Enter numbers here"
+    ></textarea
+    ><br />
+    <button id="calculate">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+      document.getElementById("calculate").onclick = async () => {
+        const numbers = document.getElementById("numbers").value;
+        const response = await fetch("/calculate", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ numbers }),
+        });
+        const result = await response.json();
+        document.getElementById("result").innerText =
+          result.message || result.error;
+      };
+    </script>
+  </body>
+</html>
